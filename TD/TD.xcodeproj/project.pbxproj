@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF0D45D143F3DAE003AFA76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D45C143F3DAE003AFA76 /* UIKit.framework */; };
+		2EF0D45F143F3DAE003AFA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D45E143F3DAE003AFA76 /* Foundation.framework */; };
+		2EF0D461143F3DAE003AFA76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D460143F3DAE003AFA76 /* CoreGraphics.framework */; };
+		2EF0D467143F3DAE003AFA76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0D465143F3DAE003AFA76 /* InfoPlist.strings */; };
+		2EF0D46A143F3DAE003AFA76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0D469143F3DAE003AFA76 /* main.m */; };
+		2EF0D46D143F3DAE003AFA76 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0D46C143F3DAE003AFA76 /* TDAppDelegate.m */; };
+		2EF0D470143F3DAE003AFA76 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0D46E143F3DAE003AFA76 /* MainWindow.xib */; };
+		2EF0D477143F3DAE003AFA76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D45C143F3DAE003AFA76 /* UIKit.framework */; };
+		2EF0D478143F3DAE003AFA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D45E143F3DAE003AFA76 /* Foundation.framework */; };
+		2EF0D479143F3DAE003AFA76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0D460143F3DAE003AFA76 /* CoreGraphics.framework */; };
+		2EF0D481143F3DAE003AFA76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0D47F143F3DAE003AFA76 /* InfoPlist.strings */; };
+		2EF0D484143F3DAE003AFA76 /* TDTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0D483143F3DAE003AFA76 /* TDTests.h */; };
+		2EF0D486143F3DAE003AFA76 /* TDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0D485143F3DAE003AFA76 /* TDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EF0D47A143F3DAE003AFA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF0D44F143F3DAE003AFA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF0D457143F3DAE003AFA76;
+			remoteInfo = TD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF0D458143F3DAE003AFA76 /* TD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF0D45C143F3DAE003AFA76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2EF0D45E143F3DAE003AFA76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EF0D460143F3DAE003AFA76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2EF0D464143F3DAE003AFA76 /* TD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TD-Info.plist"; sourceTree = "<group>"; };
+		2EF0D466143F3DAE003AFA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EF0D468143F3DAE003AFA76 /* TD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TD-Prefix.pch"; sourceTree = "<group>"; };
+		2EF0D469143F3DAE003AFA76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EF0D46B143F3DAE003AFA76 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		2EF0D46C143F3DAE003AFA76 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		2EF0D46F143F3DAE003AFA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2EF0D476143F3DAE003AFA76 /* TDTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF0D47E143F3DAE003AFA76 /* TDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDTests-Info.plist"; sourceTree = "<group>"; };
+		2EF0D480143F3DAE003AFA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EF0D482143F3DAE003AFA76 /* TDTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDTests-Prefix.pch"; sourceTree = "<group>"; };
+		2EF0D483143F3DAE003AFA76 /* TDTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTests.h; sourceTree = "<group>"; };
+		2EF0D485143F3DAE003AFA76 /* TDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF0D455143F3DAE003AFA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D45D143F3DAE003AFA76 /* UIKit.framework in Frameworks */,
+				2EF0D45F143F3DAE003AFA76 /* Foundation.framework in Frameworks */,
+				2EF0D461143F3DAE003AFA76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF0D472143F3DAE003AFA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D477143F3DAE003AFA76 /* UIKit.framework in Frameworks */,
+				2EF0D478143F3DAE003AFA76 /* Foundation.framework in Frameworks */,
+				2EF0D479143F3DAE003AFA76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF0D44D143F3DAE003AFA76 = {
+			isa = PBXGroup;
+			children = (
+				2EF0D462143F3DAE003AFA76 /* TD */,
+				2EF0D47C143F3DAE003AFA76 /* TDTests */,
+				2EF0D45B143F3DAE003AFA76 /* Frameworks */,
+				2EF0D459143F3DAE003AFA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF0D459143F3DAE003AFA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D458143F3DAE003AFA76 /* TD.app */,
+				2EF0D476143F3DAE003AFA76 /* TDTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF0D45B143F3DAE003AFA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D45C143F3DAE003AFA76 /* UIKit.framework */,
+				2EF0D45E143F3DAE003AFA76 /* Foundation.framework */,
+				2EF0D460143F3DAE003AFA76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EF0D462143F3DAE003AFA76 /* TD */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D46B143F3DAE003AFA76 /* TDAppDelegate.h */,
+				2EF0D46C143F3DAE003AFA76 /* TDAppDelegate.m */,
+				2EF0D46E143F3DAE003AFA76 /* MainWindow.xib */,
+				2EF0D463143F3DAE003AFA76 /* Supporting Files */,
+			);
+			path = TD;
+			sourceTree = "<group>";
+		};
+		2EF0D463143F3DAE003AFA76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D464143F3DAE003AFA76 /* TD-Info.plist */,
+				2EF0D465143F3DAE003AFA76 /* InfoPlist.strings */,
+				2EF0D468143F3DAE003AFA76 /* TD-Prefix.pch */,
+				2EF0D469143F3DAE003AFA76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EF0D47C143F3DAE003AFA76 /* TDTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D483143F3DAE003AFA76 /* TDTests.h */,
+				2EF0D485143F3DAE003AFA76 /* TDTests.m */,
+				2EF0D47D143F3DAE003AFA76 /* Supporting Files */,
+			);
+			path = TDTests;
+			sourceTree = "<group>";
+		};
+		2EF0D47D143F3DAE003AFA76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0D47E143F3DAE003AFA76 /* TDTests-Info.plist */,
+				2EF0D47F143F3DAE003AFA76 /* InfoPlist.strings */,
+				2EF0D482143F3DAE003AFA76 /* TDTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF0D457143F3DAE003AFA76 /* TD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF0D489143F3DAE003AFA76 /* Build configuration list for PBXNativeTarget "TD" */;
+			buildPhases = (
+				2EF0D454143F3DAE003AFA76 /* Sources */,
+				2EF0D455143F3DAE003AFA76 /* Frameworks */,
+				2EF0D456143F3DAE003AFA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TD;
+			productName = TD;
+			productReference = 2EF0D458143F3DAE003AFA76 /* TD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EF0D475143F3DAE003AFA76 /* TDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF0D48C143F3DAE003AFA76 /* Build configuration list for PBXNativeTarget "TDTests" */;
+			buildPhases = (
+				2EF0D471143F3DAE003AFA76 /* Sources */,
+				2EF0D472143F3DAE003AFA76 /* Frameworks */,
+				2EF0D473143F3DAE003AFA76 /* Resources */,
+				2EF0D474143F3DAE003AFA76 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF0D47B143F3DAE003AFA76 /* PBXTargetDependency */,
+			);
+			name = TDTests;
+			productName = TDTests;
+			productReference = 2EF0D476143F3DAE003AFA76 /* TDTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF0D44F143F3DAE003AFA76 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2EF0D452143F3DAE003AFA76 /* Build configuration list for PBXProject "TD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EF0D44D143F3DAE003AFA76;
+			productRefGroup = 2EF0D459143F3DAE003AFA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF0D457143F3DAE003AFA76 /* TD */,
+				2EF0D475143F3DAE003AFA76 /* TDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF0D456143F3DAE003AFA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D467143F3DAE003AFA76 /* InfoPlist.strings in Resources */,
+				2EF0D470143F3DAE003AFA76 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF0D473143F3DAE003AFA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D481143F3DAE003AFA76 /* InfoPlist.strings in Resources */,
+				2EF0D484143F3DAE003AFA76 /* TDTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF0D474143F3DAE003AFA76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF0D454143F3DAE003AFA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D46A143F3DAE003AFA76 /* main.m in Sources */,
+				2EF0D46D143F3DAE003AFA76 /* TDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF0D471143F3DAE003AFA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF0D486143F3DAE003AFA76 /* TDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EF0D47B143F3DAE003AFA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF0D457143F3DAE003AFA76 /* TD */;
+			targetProxy = 2EF0D47A143F3DAE003AFA76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EF0D465143F3DAE003AFA76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF0D466143F3DAE003AFA76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2EF0D46E143F3DAE003AFA76 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF0D46F143F3DAE003AFA76 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2EF0D47F143F3DAE003AFA76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF0D480143F3DAE003AFA76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF0D487143F3DAE003AFA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EF0D488143F3DAE003AFA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2EF0D48A143F3DAE003AFA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TD/TD-Prefix.pch";
+				INFOPLIST_FILE = "TD/TD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EF0D48B143F3DAE003AFA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TD/TD-Prefix.pch";
+				INFOPLIST_FILE = "TD/TD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2EF0D48D143F3DAE003AFA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TD.app/TD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTests/TDTests-Prefix.pch";
+				INFOPLIST_FILE = "TDTests/TDTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2EF0D48E143F3DAE003AFA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TD.app/TD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTests/TDTests-Prefix.pch";
+				INFOPLIST_FILE = "TDTests/TDTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF0D452143F3DAE003AFA76 /* Build configuration list for PBXProject "TD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF0D487143F3DAE003AFA76 /* Debug */,
+				2EF0D488143F3DAE003AFA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF0D489143F3DAE003AFA76 /* Build configuration list for PBXNativeTarget "TD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF0D48A143F3DAE003AFA76 /* Debug */,
+				2EF0D48B143F3DAE003AFA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EF0D48C143F3DAE003AFA76 /* Build configuration list for PBXNativeTarget "TDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF0D48D143F3DAE003AFA76 /* Debug */,
+				2EF0D48E143F3DAE003AFA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF0D44F143F3DAE003AFA76 /* Project object */;
+}
