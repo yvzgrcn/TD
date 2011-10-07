@@ -6,6 +6,8 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+//Gurcan Yavuz Efe Burak
+
 #import "TDAppDelegate.h"
 
 @implementation TDAppDelegate
